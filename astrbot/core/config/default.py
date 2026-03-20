@@ -342,6 +342,16 @@ CONFIG_METADATA_2 = {
                         "callback_server_host": "0.0.0.0",
                         "port": 6195,
                     },
+                    "WeChatPadPro": {
+                        "id": "wechatpadpro",
+                        "type": "wechatpadpro",
+                        "enable": True,
+                        "host": "127.0.0.1",
+                        "port": 9011,
+                        "admin_key": "",
+                        "wpp_active_message_poll": False,
+                        "wpp_active_message_poll_interval": 5,
+                    },
                     "企业微信智能机器人": {
                         "id": "wecom_ai_bot",
                         "type": "wecom_ai_bot",

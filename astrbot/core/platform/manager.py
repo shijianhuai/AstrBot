@@ -158,6 +158,10 @@ class PlatformManager:
                     from .sources.wecom_ai_bot.wecomai_adapter import (
                         WecomAIBotAdapter,  # noqa: F401
                     )
+                case "wechatpadpro":
+                    from .sources.wechatpadpro.wechatpadpro_adapter import (
+                        WeChatPadProAdapter,  # noqa: F401
+                    )
                 case "weixin_official_account":
                     from .sources.weixin_official_account.weixin_offacc_adapter import (
                         WeixinOfficialAccountPlatformAdapter,  # noqa: F401
